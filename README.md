@@ -1,0 +1,2 @@
+# Intelligent-Drone-Based-Traffic-Monitoring-System-for-UAE
+Developed an AI-powered drone system using Python, YOLOv8, and EasyOCR for real-time vehicle detection, license plate recognition, and speed monitoring via GPS. Violations are flagged automatically, with email alerts + video evidence (auto-upload to Google Drive). Deployed on Raspberry Pi 5 with live video overlays, logging, and error handling. 
