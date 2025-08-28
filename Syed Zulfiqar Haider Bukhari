@@ -1,0 +1,25 @@
+I developed an AI-powered drone-based traffic monitoring system using Machine Learning and Python to improve road safety and automate traffic rule enforcement in the UAE.
+
+🚁 System Highlights
+Live Video & GPS Tracking: Real-time feed via Raspberry Pi 5 with GPS integration.
+Vehicle & License Plate Detection: YOLOv8 + EasyOCR to detect vehicles and recognize license plates.
+Speed Monitoring & Violation Detection: GPS-based speed estimation; vehicles exceeding 120 km/h flagged automatically.
+Automated Violation Reporting: Email alerts with plate number + video evidence; large files auto-uploaded to Google Drive.
+Video Recording & Snippets: Full recordings (AVI) plus 10s violation clips (H.264).
+Real-Time Overlays: On-screen display of speed, license plates, and violation highlights (green = safe, red = violation).
+Error Handling & Logging: Auto-recovery from camera/GPS failures with detailed logs for debugging.
+⚡ Tech Stack: Python, OpenCV, YOLOv8, EasyOCR, libcamera, SMTP, Google Drive API, Raspberry Pi 5, GPS modules.
+
+🔹 Machine Learning Models Applied
+YOLOv8: Object detection for vehicles in live drone video.
+EasyOCR: High-accuracy license plate recognition.
+GPS + Haversine Formula: Speed calculation and violation detection.
+
+🔹 Python Development Work
+Built an end-to-end ML pipeline for video capture, GPS data processing, and real-time inference.
+Developed overlay features showing speed, license plates, and violations.
+Implemented automated email notifications with attachments or cloud links.
+Added robust error handling and logging for fault tolerance.
+Optimized system for Raspberry Pi 5 deployment with efficient video handling and threaded processing.
+✅ Impact:
+This solution delivers real-time, AI-powered traffic monitoring that reduces manual enforcement, improves road safety, and establishes a scalable foundation for smart city infrastructure.
